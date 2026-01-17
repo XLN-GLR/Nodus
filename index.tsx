@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './App.tsx';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -15,10 +15,10 @@ root.render(
   </React.StrictMode>
 );
 
-// Registro de Service Worker para habilitar PWA (Instalación en escritorio)
-if ('serviceWorker' in navigator) {
+// Registro de Service Worker corregido para rutas relativas
+if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(err => {
+    navigator.serviceWorker.register('./sw.js').catch(err => {
       console.log('ServiceWorker registration failed: ', err);
     });
   });

@@ -1,40 +1,30 @@
 # Nodus: Sistema de Planificación Gamificado
 
-Nodus es una herramienta de productividad diseñada para convertir la organización de tu tiempo y tus estudios en un juego. Con Nodus, completar tus tareas y mantener tus hábitos te otorga puntos de experiencia para subir de nivel, manteniendo tu motivación al máximo.
+Nodus es una herramienta de productividad diseñada para convertir la organización de tu tiempo y tus estudios en un juego.
 
-## Guía de Instalación Rápida
+## ⚠️ Nota Importante sobre la Ejecución Local
 
-No necesitas instalar programas complicados ni saber programar para usar Nodus en tu ordenador. Sigue estos pasos:
+Debido a las restricciones de seguridad de los navegadores (Chrome, Edge, Brave), **las aplicaciones web modernas no se pueden abrir simplemente haciendo doble clic en el archivo .html** si están en tu ordenador, ya que el navegador bloquea los archivos por seguridad (error de CORS).
 
-### 1. Descarga y Preparación
-1. Descarga todos los archivos del proyecto a tu ordenador (puedes descargarlos como un archivo ZIP y descomprimirlo).
-2. Guarda la carpeta en un lugar seguro, como tu carpeta de Documentos.
+Para que la aplicación funcione correctamente en tu ordenador, tienes dos opciones fáciles:
 
-### 2. Cómo abrir la aplicación
-1. Entra en la carpeta que acabas de descargar.
-2. Busca el archivo llamado `index.html`.
-3. Haz doble clic sobre él. Se abrirá automáticamente en tu navegador web preferido.
+### Opción A: Usar una extensión (La más fácil)
+1. Si usas Chrome o Edge, instala la extensión llamada **"Web Server for Chrome"** o **"Live Server"**.
+2. Abre la extensión y selecciona la carpeta donde descargaste Nodus.
+3. Haz clic en el enlace que te dará (ejemplo: `http://127.0.0.1:8887`).
+4. ¡Listo! Ya podrás usar la app e instalarla.
 
-### 3. Cómo instalarla como un programa (Escritorio)
-Si quieres que Nodus aparezca en tu escritorio o barra de tareas como una aplicación independiente:
-1. Una vez abierto el archivo `index.html` en Chrome o Edge, fíjate en la barra de direcciones (donde aparece la ruta del archivo).
-2. A la derecha del todo, aparecerá un icono pequeño con forma de monitor y una flecha, o un símbolo de "+".
-3. Haz clic en ese icono y selecciona "Instalar".
-4. Ahora podrás abrir Nodus directamente desde tu menú de inicio o escritorio sin necesidad de buscar la carpeta.
-
-## Notas importantes sobre tus datos
-
-Para que Nodus sea rápido y privado, funciona de la siguiente manera:
-- **Tus datos son tuyos:** Toda tu información (niveles, tareas, hábitos) se guarda únicamente en tu ordenador.
-- **Sin internet:** Una vez que abras el archivo por primera vez, la aplicación seguirá funcionando aunque no tengas conexión a internet.
-- **Cuidado con la limpieza:** Si borras el historial o la caché de tu navegador de forma agresiva, podrías perder tu progreso. Se recomienda no borrar los "Datos de sitios web" relacionados con el archivo local de Nodus.
+### Opción B: GitHub Pages (Recomendado para tenerla siempre online)
+1. Sube estos archivos a un repositorio de GitHub.
+2. Activa **GitHub Pages** en los ajustes (Settings > Pages).
+3. Entra en la URL que te dará GitHub. Desde ahí podrás darle al botón **Instalar** y tener Nodus como un programa en tu escritorio.
 
 ## ¿Qué puedes hacer en Nodus?
 
-- **Dashboard:** Un resumen visual de tu progreso, rachas de días activos y misiones diarias.
-- **Hábitos:** Crea rutinas con iconos personalizados. Cada vez que cumplas un hábito, ganarás puntos de experiencia (EXP).
-- **Aula Virtual:** Crea tus asignaturas, toma apuntes de tus clases y gestiona las fechas de entrega de tus trabajos.
-- **Pomodoro:** Un temporizador para trabajar concentrado. Al terminar cada sesión de estudio, recibirás una recompensa de experiencia.
-- **Personalización:** En la sección de Ajustes puedes cambiar el color de la aplicación y elegir entre modo claro, oscuro o neón.
+- **Dashboard:** Resumen de progreso y misiones.
+- **Hábitos:** Gana EXP cumpliendo tus rutinas.
+- **Aula Virtual:** Gestiona materias, apuntes y tareas.
+- **Pomodoro:** Temporizador de estudio con recompensas.
+- **Personalización:** Modos Claro, Oscuro, Neón y Alto Contraste.
 
-Nodus está diseñado para que organizar tu vida sea tan satisfactorio como jugar a tu videojuego favorito.
+Tus datos se guardan localmente en tu navegador. No necesitas cuenta ni conexión permanente.
