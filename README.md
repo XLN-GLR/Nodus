@@ -1,41 +1,40 @@
-
 # Nodus: Sistema de Planificación Gamificado
 
-Nodus es una plataforma de productividad integral diseñada para transformar la gestión del tiempo y el estudio en una experiencia motivadora basada en mecánicas de juego. Es una herramienta ideal para estudiantes y profesionales que buscan mejorar su disciplina personal mediante una interfaz moderna y funcional.
+Nodus es una herramienta de productividad diseñada para convertir la organización de tu tiempo y tus estudios en un juego. Con Nodus, completar tus tareas y mantener tus hábitos te otorga puntos de experiencia para subir de nivel, manteniendo tu motivación al máximo.
 
-## Instalación como Aplicación de Escritorio
+## Guía de Instalación Rápida
 
-Nodus está desarrollado como una Aplicación Web Progresiva (PWA), lo que permite instalarlo en sistemas operativos Windows, macOS o Linux como si fuera una aplicación nativa:
+No necesitas instalar programas complicados ni saber programar para usar Nodus en tu ordenador. Sigue estos pasos:
 
-1. Abra Nodus en su navegador web (se recomienda utilizar Google Chrome, Microsoft Edge o Brave).
-2. Localice el botón de instalación en la barra de direcciones superior. Generalmente aparece como un icono de monitor con una flecha o un símbolo de suma a la derecha de la URL.
-3. Haga clic en Instalar y confirme la acción en la ventana emergente.
-4. Una vez completado, se creará un acceso directo en su escritorio o menú de inicio. La aplicación se ejecutará en una ventana independiente, optimizando el espacio de trabajo al eliminar las distracciones del navegador.
+### 1. Descarga y Preparación
+1. Descarga todos los archivos del proyecto a tu ordenador (puedes descargarlos como un archivo ZIP y descomprimirlo).
+2. Guarda la carpeta en un lugar seguro, como tu carpeta de Documentos.
 
-## Guía para Desarrolladores (Ejecución Local)
+### 2. Cómo abrir la aplicación
+1. Entra en la carpeta que acabas de descargar.
+2. Busca el archivo llamado `index.html`.
+3. Haz doble clic sobre él. Se abrirá automáticamente en tu navegador web preferido.
 
-Si desea descargar el código fuente y ejecutarlo en un entorno de desarrollo, siga estos pasos:
+### 3. Cómo instalarla como un programa (Escritorio)
+Si quieres que Nodus aparezca en tu escritorio o barra de tareas como una aplicación independiente:
+1. Una vez abierto el archivo `index.html` en Chrome o Edge, fíjate en la barra de direcciones (donde aparece la ruta del archivo).
+2. A la derecha del todo, aparecerá un icono pequeño con forma de monitor y una flecha, o un símbolo de "+".
+3. Haz clic en ese icono y selecciona "Instalar".
+4. Ahora podrás abrir Nodus directamente desde tu menú de inicio o escritorio sin necesidad de buscar la carpeta.
 
-1. Descargue o clone el repositorio en su equipo utilizando una terminal.
-2. Acceda a la carpeta del proyecto.
-3. Instale las dependencias necesarias ejecutando el comando: npm install.
-4. Inicie el entorno de desarrollo con el comando: npm run dev.
-5. El sistema le proporcionará una dirección local (por ejemplo, localhost:5173) para abrir la aplicación en su navegador.
+## Notas importantes sobre tus datos
 
-## Almacenamiento y Persistencia de Datos
+Para que Nodus sea rápido y privado, funciona de la siguiente manera:
+- **Tus datos son tuyos:** Toda tu información (niveles, tareas, hábitos) se guarda únicamente en tu ordenador.
+- **Sin internet:** Una vez que abras el archivo por primera vez, la aplicación seguirá funcionando aunque no tengas conexión a internet.
+- **Cuidado con la limpieza:** Si borras el historial o la caché de tu navegador de forma agresiva, podrías perder tu progreso. Se recomienda no borrar los "Datos de sitios web" relacionados con el archivo local de Nodus.
 
-Esta aplicación ha sido diseñada priorizando la privacidad y la velocidad. No requiere de una base de datos externa ni de una conexión constante a internet una vez instalada:
+## ¿Qué puedes hacer en Nodus?
 
-- Almacenamiento Local: Toda su información, incluyendo niveles, experiencia acumulada, materias y tareas, se guarda exclusivamente en el almacenamiento local de su navegador (LocalStorage).
-- Privacidad: Sus datos permanecen en su dispositivo y nunca se envían a servidores externos.
-- Gestión de Datos: Si desea borrar toda su información y comenzar desde cero, puede hacerlo desde la sección de Ajustes dentro de la aplicación. Tenga en cuenta que si limpia la caché o los datos de navegación de su navegador para este sitio, la información guardada podría eliminarse.
+- **Dashboard:** Un resumen visual de tu progreso, rachas de días activos y misiones diarias.
+- **Hábitos:** Crea rutinas con iconos personalizados. Cada vez que cumplas un hábito, ganarás puntos de experiencia (EXP).
+- **Aula Virtual:** Crea tus asignaturas, toma apuntes de tus clases y gestiona las fechas de entrega de tus trabajos.
+- **Pomodoro:** Un temporizador para trabajar concentrado. Al terminar cada sesión de estudio, recibirás una recompensa de experiencia.
+- **Personalización:** En la sección de Ajustes puedes cambiar el color de la aplicación y elegir entre modo claro, oscuro o neón.
 
-## Funcionalidades Principales
-
-- Gamificación: Un sistema que asigna puntos de experiencia y niveles por cada actividad completada.
-- Seguimiento de Hábitos: Registro diario de rutinas con personalización de iconos y colores.
-- Aula Virtual: Espacio para organizar asignaturas, tomar apuntes y gestionar fechas de entrega de tareas.
-- Método Pomodoro: Temporizador integrado para gestionar ciclos de trabajo y descanso.
-- Temas Personalizables: Diferentes modos de visualización, incluyendo opciones de alto contraste y temas oscuros.
-
-Nodus busca simplificar su organización diaria permitiéndole visualizar su progreso de una manera clara y gratificante.
+Nodus está diseñado para que organizar tu vida sea tan satisfactorio como jugar a tu videojuego favorito.
