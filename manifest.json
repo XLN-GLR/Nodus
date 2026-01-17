@@ -1,0 +1,21 @@
+
+{
+  "short_name": "Nodus",
+  "name": "Nodus: Gamified Planner",
+  "icons": [
+    {
+      "src": "https://api.dicebear.com/7.x/initials/svg?seed=Nodus&backgroundColor=4f46e5",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://api.dicebear.com/7.x/initials/svg?seed=Nodus&backgroundColor=4f46e5",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4f46e5",
+  "background_color": "#010204"
+}
